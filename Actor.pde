@@ -131,4 +131,26 @@ abstract class Actor extends WorldObject {
    */
 
   abstract public Action getAction();
+
+  /**
+   *      Method: public draw()
+   *  Parameters: void
+   *      Return: void
+   * Description: Draws the actor with a health bar on top (0 to 1 from getHealth())
+   */
+
+  public void draw() {
+    float barW = 36;
+    float barH = 5;
+    // lost health shows as dark red, current health as green
+    fill(80, 0, 0);
+    noStroke();
+    rect(-barW / 2, -22, barW, barH);
+    fill(40, 180, 60);
+    rect(-barW / 2, -22, barW * getHealth(), barH);
+    stroke(255);
+    strokeWeight(1);
+    noFill();
+    rect(-barW / 2, -22, barW, barH);
+  }
 }

@@ -142,4 +142,37 @@ class Player extends Actor {
       debounce.put(released, false);
     }
   }
+
+  /**
+   *      Method: public draw()
+   *  Parameters: void
+   *      Return: void
+   * Description: Draws health bar, knight sprite from data/knight.png, facing hint
+   */
+
+  public void draw() {
+    super.draw();
+    float sprSize = 28;
+    imageMode(CENTER);
+    noTint();
+    // knightSprite is loaded in setup() in Project4.pde
+    if (knightSprite != null && knightSprite.width > 0) {
+      pushMatrix();
+      if (facing == Direction.WEST) {
+        scale(-1, 1);
+      }
+      image(knightSprite, 0, 0, sprSize, sprSize);
+      popMatrix();
+    } else {
+      fill(80, 140, 220);
+      stroke(255);
+      strokeWeight(1);
+      ellipse(0, 0, 22, 22);
+    }
+    stroke(255, 255, 100);
+    strokeWeight(3);
+    float len = 14;
+    line(0, 0, facing.x * len, facing.y * len);
+    strokeWeight(1);
+  }
 }

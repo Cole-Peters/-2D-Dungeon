@@ -12,6 +12,14 @@
 Scene scene;
 String fileName;
 
+// Sprites from the sketch data folder (data/knight.png, data/goblin.png)
+PImage knightSprite;
+PImage goblinSprite;
+// Optional: repeating floor texture per tile (data/floor.png)
+PImage floorSprite;
+// Obstacle sprite for RockWall (data/clashstone.png)
+PImage clashStoneSprite;
+
 /**
  *      Method: setup()
  *  Parameters: void
@@ -23,6 +31,10 @@ String fileName;
 void setup() {
   fullScreen(P2D);
   pixelDensity(1);
+  knightSprite = loadImage("knight.png");
+  goblinSprite = loadImage("goblin.png");
+  floorSprite = loadImage("floor.png");
+  clashStoneSprite = loadImage("clashstone.png");
   fileName = "data" + File.separator + "save.json";
   File file = new File(fileName);
 
