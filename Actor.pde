@@ -1,5 +1,5 @@
 /**
- *      Author: Prof. Morales
+ *      Author: Prof. Morales, Kyle Bernet, Cole Peters
  *      Course: CPSC 220
  *  Instructor: Prof. Morales
  *     Created: 2026-04-15

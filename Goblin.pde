@@ -1,5 +1,13 @@
 /**
- * Basic enemy: attacks if it can, otherwise picks a random valid move.
+ *      Author: Kyle Bernet, Cole Peters
+ *      Course: CPSC 220
+ *  Instructor: Prof. Morales
+ *     Created: 2026-04-25
+ *         Due: 2026-05-10
+ *  Assignment: Project 4
+ *        File: Goblin.pde
+ * Description: A basic enemy that attacks if it can, 
+ *              otherwise picks a random valid move
  */
 
 class Goblin extends Actor {

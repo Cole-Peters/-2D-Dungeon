@@ -1,5 +1,12 @@
 /**
- * Simple rock obstacle — blocks movement (not an Actor).
+ *      Author: Kyle Bernet, Cole Peters
+ *      Course: CPSC 220
+ *  Instructor: Prof. Morales
+ *     Created: 2026-04-25
+ *         Due: 2026-05-10
+ *  Assignment: Project 4
+ *        File: RockWall.pde
+ * Description: A simple rock obstacle that blocks movement
  */
 
 class RockWall extends WorldObject {

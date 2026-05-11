@@ -1,5 +1,5 @@
 /**
- *      Author: Prof. Morales
+ *      Author: Prof. Morales, Kyle Bernet, Cole Peters
  *      Course: CPSC 220
  *  Instructor: Prof. Morales
  *     Created: 2026-04-15
@@ -9,8 +9,11 @@
  * Description: A dungeon crawler game
  */
 
+import processing.sound.*;
+
 Scene scene;
 String fileName;
+SoundFile bgMusic;
 
 // Sprites from the sketch data folder (data/knight.png, data/goblin.png)
 PImage knightSprite;
@@ -35,7 +38,9 @@ void setup() {
   goblinSprite = loadImage("goblin.png");
   floorSprite = loadImage("floor.png");
   clashStoneSprite = loadImage("clashstone.png");
-  fileName = "data" + File.separator + "save.json";
+  bgMusic = new SoundFile(this, "HarvestDawn.mp3");
+  bgMusic.loop();
+  fileName = sketchPath("data/save.json");
   File file = new File(fileName);
 
   if (file.exists()) {

@@ -1,5 +1,12 @@
 /**
- * Walk on it to heal the player a little (Interactable).
+ *      Author: Kyle Bernet, Cole Peters
+ *      Course: CPSC 220
+ *  Instructor: Prof. Morales
+ *     Created: 2026-04-25
+ *         Due: 2026-05-10
+ *  Assignment: Project 4
+ *        File: HealthPickup.pde
+ * Description: A health pickup that heals the player a little
  */
 
 class HealthPickup extends Interactable {
