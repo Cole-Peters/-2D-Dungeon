@@ -1,0 +1,310 @@
+{
+  "roomWidth": 11,
+  "doors": {
+    "NORTH": {
+      "x": 5,
+      "y": 0
+    },
+    "WEST": {
+      "x": 0,
+      "y": 7
+    }
+  },
+  "entry": "EAST",
+  "cells": [
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 1
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 2
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 3
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 4
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 5
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 6
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 8
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 9
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 10
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 0,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 1,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 1,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 2,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 2,
+      "y": 9
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 2,
+      "y": 10
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 2,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 3,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 3,
+      "y": 1
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 3,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 4,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 4,
+      "y": 4
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 4,
+      "y": 5
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 4,
+      "y": 7
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 4,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 5,
+      "y": 2
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 5,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 6,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 6,
+      "y": 1
+    },
+    {
+      "obj": {
+        "damage": 10,
+        "facing": "WEST",
+        "maxHealth": 100,
+        "className": "Player",
+        "currHealth": 76
+      },
+      "x": 6,
+      "y": 4
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 6,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 7,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 7,
+      "y": 1
+    },
+    {
+      "obj": {
+        "damage": 6,
+        "facing": "SOUTH",
+        "maxHealth": 28,
+        "className": "Goblin",
+        "currHealth": 28
+      },
+      "x": 7,
+      "y": 4
+    },
+    {
+      "obj": {"className": "HealthPickup"},
+      "x": 7,
+      "y": 7
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 7,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 8,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 8,
+      "y": 3
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 8,
+      "y": 6
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 8,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 9,
+      "y": 0
+    },
+    {
+      "obj": {
+        "damage": 6,
+        "facing": "NORTH",
+        "maxHealth": 28,
+        "className": "Goblin",
+        "currHealth": 28
+      },
+      "x": 9,
+      "y": 2
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 9,
+      "y": 11
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 0
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 1
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 2
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 3
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 4
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 5
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 6
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 7
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 8
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 9
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 10
+    },
+    {
+      "obj": {"className": "RockWall"},
+      "x": 10,
+      "y": 11
+    }
+  ],
+  "roomHeight": 12
+}
